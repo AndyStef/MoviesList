@@ -10,6 +10,8 @@ import UIKit
 
 class MovieImageTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var movieImage: UIImageView!
+   
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -17,8 +19,6 @@ class MovieImageTableViewCell: UITableViewCell {
 
     override func setSelected(selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
 
 }
